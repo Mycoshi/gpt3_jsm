@@ -10,25 +10,22 @@ const Header = () => {
         <h1 className="gradient__text">Let's Build something amazing with GPT-3</h1>
         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
-        <div className="gpt3__header-content__input">    
-          <input type="email" placeholder="Enter Your Email" />
-          <button type="button">Get Started</button>
-        </div>
-
-          <div className="gpt3__header-content__people">
-            <img src={people} alt='people' />
-            <p>1600 people requested access in the last 24 hours</p>
-          </div>
-
-          <div className="gpt3__header-img">
-            <img src={ai} alt='ai' />
-          </div>
-
-
-        </div>
-      
-      
+      <div className="gpt3__header-content__input">    
+        <input type="email" placeholder="Enter Your Email" />
+        <button type="button">Get Started</button>
       </div>
+
+      <div className="gpt3__header-content__people">
+        <img src={people} alt='people' />
+        <p>1600 people requested access in the last 24 hours</p>
+      </div>
+
+    </div>
+      <div className="gpt3__header-img">
+        <img src={ai} alt='ai' />
+      </div>
+      
+    </div>
   )
 }
 
